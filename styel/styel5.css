@@ -1,0 +1,244 @@
+body{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    text-transform: capitalize;
+    overflow-x: hidden;
+}
+/* nav bar */
+.p-e{
+    padding-left: var(--bs-gutter-x,4.2rem);
+}
+.fa-solid:hover{
+    cursor: pointer;
+    color: rgb(206, 68, 68);
+}
+.btn1{
+    transition: 0.3s;
+}
+.btn1:hover{
+    border-radius: 10px;
+    transform: scale(1.1);
+    background-color: rgb(206, 68, 68);  
+    text-transform: lowercase; 
+}
+.dropdown-item{
+    transition: 0.3s;
+}
+.dropdown-item:hover{
+    background-color: rgb(206, 68, 68);
+    text-transform: lowercase;
+    transform: scale(1.1);
+}
+.btn2:hover{
+    border-radius: 10px;
+    background-color:white;
+    text-transform: lowercase;
+    color: white;
+}
+/* about */
+/* header */
+.bg{
+    background-image: url(../photo/images/about-us-page-heading.jpg);
+    background-size: cover;
+    height: 420px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8%;
+    justify-content: center;
+}
+.fs-h1{
+        font-size: 55px;
+        word-spacing: 13px;
+}
+.fw-parag{
+    margin-bottom: 8%;
+    font-weight: 600;
+    font-family: system-ui;
+    color: #777;
+    text-transform:lowercase;
+    text-align: center;
+}
+.fs-h{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10%;
+}
+/* icons */
+.texcenter {
+    margin-top: 5%;
+}
+.hove1{
+    color: black;
+    transition: .5s all;
+}
+.hove1:hover{
+    color: blue;
+}
+.hove2{
+    color: black;
+    transition: .5s all;
+}
+.hove2:hover{
+    color: #1DA1F2;
+}
+.hove3{
+    color: black;
+    transition: .5s all;
+}
+.hove3:hover{
+    color: #1DA1F2;
+}
+.hove3{
+    color: black;
+    transition: .5s all;
+}
+.hove3:hover{
+    color:	#25D366;
+}
+.hove4{
+    color: black;
+    transition: .5s all;
+}
+.hove4:hover{
+    color:	red;
+}
+/* amazing */
+.f-w{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mt-amazing{
+    margin-top: 15%;
+    margin-bottom: 12%;
+}
+.text-centers{
+    text-align: center;
+}
+.card{
+    position: inherit;
+}
+.cardimg-top{
+    margin-top: 5%;
+}
+/* form */
+.head{
+    margin-bottom: 1%;
+    font-family: 'Poppins', sans-serif;    
+    text-align: center;
+    letter-spacing: 2px;
+}
+.head2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #777;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 4%;
+}
+.contan{
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+.ms{
+    margin-left: 7%;
+    margin-bottom: 5%;
+}
+.inp{
+    width: 92%;
+}
+/* details */
+.m-b-5{
+    text-align: center;
+}
+.colo {
+    color: #cd5c5c;
+    text-decoration: underline;
+}
+.fw-bold {
+    font-weight: 700!important;
+}
+/* footer */
+.fs{
+    flex-basis: 18%;
+}
+.text-center{
+   letter-spacing: 5px;
+}
+.text1{
+    color: #777;
+    font-size: large;
+    letter-spacing: 3px;      
+    margin-bottom: 4%;
+}
+.di{
+    grid-gap: 56px 84px;
+}
+.about{
+    margin-top: 9%;
+}
+.fb{
+    flex-basis: 17%;   
+}
+.fs{
+    font-size: 42px;
+    width: 1%;
+    color: white;
+}
+.text{
+    font-size: 98px;
+}
+.fs:hover{
+    cursor: pointer;
+    color:#cd5c5c;
+}
+.lh{
+    line-height: 44px;
+}
+.bs{--bs-gutter-x: none;}
+.me{
+    margin-right: 8%;
+}
+.bord{
+    border-top: 1px solid white;
+    padding: 20px;
+}
+.Ff{
+    font-weight: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.textalign{
+    text-align: center;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.texecenter{
+    text-align: center;
+    letter-spacing: 14px;
+    margin-bottom: 2%;
+}
+.m-footer{
+    text-align: center;
+    margin-top: 2%;
+}
+.btn{
+    margin-top: 4%;
+    transition: 0.3s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+/* media quire */
+@media screen and (max-width: 768px){
+    .bs{
+        flex-direction: column;
+    }
+    .fb{
+        margin-top: 5%;
+    }
+    .fs{
+        flex-basis: 18%;
+    }
+}
